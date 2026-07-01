@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: yellow;
+    color: black;
+}
+
+header {
+    background-color: yellow;
+}
+#home {
+    background-color: yellow;
+}
+.home-container {
+    background-color: aqua;
+}

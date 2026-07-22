@@ -9,19 +9,21 @@
 <body>
 
   <header>
-  <nav>
-    <div class="logo">
-        <img src="pompompurin.png" alt="Pompompurin Logo">
-    </div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <nav>
+      <div class="logo">
+          <img src="images/pompompurin.png" alt="Pompompurin Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button onclick="showInfo()">Show My Info</button>
+      <button onclick="toggleTheme()">Dark Mode</button>
+    </nav>
+  </header>
 
   <section id="home" class="home-container">
     <h2>Sykie May P. Daroy</h2>
@@ -31,7 +33,7 @@
 
   <section id="about">
     <div class="about-container">
-      <img src="sykie.jpg" alt="Profile Picture" class="profile-picture">
+      <img src="images/sykie.jpg" alt="Profile Picture" class="profile-picture">
       <div class="about-content">
         <h2>About Me</h2>
         <p>Hi!, I'm Sykie May, from Surallah ,South Cotabato. 
@@ -66,7 +68,7 @@
     <h2>Projects</h2>
     <div class="project-container">
       <div class="project-card">
-        <img src="L&F.png" alt="Lost & Found screenshots">
+        <img src="images/L&F.png" alt="Lost & Found screenshots">
         <div class="project-info">
         <h3>Lost & Found Manager</h3>
         <p>A web app to manage lost and found items in schools.</p>
@@ -84,8 +86,6 @@
       <p>Phone: <a href="tel:+639758100504">+63 975 810 0504</a></p>
       <p>Facebook: <a href="facebook.com/sykie">Sykie</a></p>
       <p>GitHub: <a href="https://github.com/SykieMay">SykieMay</a></p>
-      <button onclick="showInfo()">Show My Info</button>
-      <button onclick="toggleTheme()">Dark Mode</button>
     </div>
   </section>
 
